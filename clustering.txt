@@ -1,0 +1,92 @@
+Regression
+Classification - labelled data
+Clustering(grouping) - unlabelled data
+
+
+Basket - 100 fruits(you don't know what fruits are inside)
+I will give 10 mins , you should group it
+
+maximum possible groups - 100 
+minimum possible groups - 1 
+
+Basket - 200 fruits
+20 mins
+
+maximum possible groups - 200
+minimum possible groups - 1
+-----------------------------------------------------------------------------
+Basket - Karnataka Tomato(10) , Kerala Tomato(10) , Apple(10)
+
+I am giving 3 baskets and i am sking to group,
+1st basket - Karnataka Tomato
+2nd basket - Kerala Tomato
+3rd basket - Apple
+
+If I give only 2 baskets
+1st basket - Karnataka Tomato , Kerala Tomato(bcz they are similar) (optimal grouping)
+2nd basket - Apple
+
+If I give only 10 baskets
+1st basket - Karnataka Tomato
+2nd basket - Kerala Tomato
+3rd basket - Apple , we will not use other 7 baskets , bcz there only 3 types fruits
+
+-------------------------------------------------------------------------------
+I am giving 20 fox , 20 dogs , 20 Horses
+I am giving 3 rooms and i ask to group it
+1st room - 20 fox
+2nd room - 20 dogs
+3rd room - 20 horses
+
+I am giving 2 rooms and i ask to group it (optimal grouping)
+1st room - fox and dog in one room(bcz they are similar)
+2nd room - horses
+
+I am giving 20 rooms and i ask to group it
+1st room - fox and dog in one room(bcz they are similar)
+2nd room - horses , we will use only three rooms bcz there are only 3 categories
+---------------------------------------------------------------------------------
+I am giving 150 flowers , which you never seen in your life
+maximum possible groups 150
+minimum possible groups 1
+
+10 baskets
+1st basket - 1+1+1
+2nd basket - 1+1
+3rd basket - 1
+
+optimal groups
+
+----------------------------------------------------------------------------------
+   Salary      Savings      EMI   NumberLoans 
+A  10000      1000(10%)
+B  20000      1000(5%)
+c  30000      3000(10%)
+D  40000      2000(5%)
+E  50000      2500(10%)
+F  60000      6000(5%)
+G  70000      3500(10%)
+H  80000      4000(5%)
+I  90000      4500(10%)
+J  100000     100000(5%)
+
+Good Customer
+A  10000      1000(10%)
+c  30000      3000(10%)
+E  50000      2500(10%)
+G  70000      3500(10%)
+I  90000      4500(10%)
+
+Bad Customers
+B  20000      1000(5%)
+D  40000      2000(5%)
+F  60000      6000(5%)
+H  80000      4000(5%)
+J  100000     100000(5%)
+
+----------------
+Number of Groups / We need to find how many baskets are required
+1st machine will keep one centroid and will find the distance between the all datapoints and
+will add all the distances -- 5000
+again now machine 2 centroid  
+
